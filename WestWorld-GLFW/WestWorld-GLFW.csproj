@@ -6,4 +6,9 @@
     <RootNamespace>WestWorld_GLFW</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Game\" />
+    <Folder Include="Graphics\" />
+  </ItemGroup>
+
 </Project>
