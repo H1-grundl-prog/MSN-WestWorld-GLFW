@@ -1,12 +1,15 @@
-﻿using System;
+﻿
 
-namespace WestWorld_GLFW
+using OpenGLTutorial.GameLoop;
+
+namespace OpenGLTutorial
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game game = new TestGame(1200, 600, "Test game!");
+            game.Run();
         }
     }
 }
